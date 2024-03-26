@@ -1,19 +1,25 @@
-# TaskGuardian API
+# Product Variant Management System
 
-TaskGuardian is a role-based task management system API designed to facilitate task management for teams with different roles.
-
-## Description
-
-TaskGuardian provides a backend system for a task management tool where users have different roles. Admins have full access to all functionalities, including creating, updating, and deleting tasks, as well as managing users and their roles. Managers have access to creating, updating, and deleting tasks, as well as assigning tasks to other users. Regular users can view, create, update, and delete tasks assigned to them.
-
-## Features
-
-- Role-based authentication to restrict access to API endpoints based on user roles.
-- RESTful APIs for CRUD operations on tasks.
-- Endpoints for assigning tasks to users and managing task statuses.
-- Error handling for unauthorized access attempts and invalid requests.
+The Product Variant Management System is a backend application designed to manage products along with their variants. It provides APIs to add new products, define attributes and variants, update product details, and retrieve product information along with variants.
 
 ## Technologies Used
 
-- Backend Framework: [Express](https://expressjs.com/) (Node.js)
-- Database: [MongoDB](https://www.mongodb.com/)
+- Backend Framework: [Choose one: Express/Fastify (Node.js), FastAPI/Flask (Python), Gin/Fibre (Golang), Axum/Rocket (Rust)]
+- Database: [Choose one: MongoDB, PostgreSQL]
+
+## Example
+
+Consider a product "Shirt" with the following variants:
+
+1. Size: S, Color: Red, Material: Cotton
+2. Size: M, Color: Red, Material: Cotton
+3. Size: S, Color: Green, Material: Cotton
+4. Size: M, Color: Green, Material: Cotton
+
+## Tasks
+
+1. **Design Database Schemas**: Design schemas for storing product data, attributes, and variants in the chosen database.
+2. **Implement APIs**: Implement APIs for adding new products, defining attributes and variants, and updating product details.
+3. **Enable Retrieval**: Enable retrieval of product information along with variants through appropriate API endpoints.
+4. **Testing**: Test the APIs using Postman or similar tools to ensure functionality and reliability.
+5. **Optional: Dockerization**: Dockerize the application for easier deployment and scalability.
