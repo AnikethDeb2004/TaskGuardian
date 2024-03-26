@@ -4,8 +4,8 @@ The Product Variant Management System is a backend application designed to manag
 
 ## Technologies Used
 
-- Backend Framework: [Choose one: Express/Fastify (Node.js), FastAPI/Flask (Python), Gin/Fibre (Golang), Axum/Rocket (Rust)]
-- Database: [Choose one: MongoDB, PostgreSQL]
+- Backend Framework:Express
+- Database: MongoDB
 
 ## Example
 
