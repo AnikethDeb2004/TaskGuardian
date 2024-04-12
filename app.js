@@ -10,12 +10,12 @@ const uri = "mongodb+srv://ANIKETH:2QogVdyueYPJrGUn@cluster0.zyaknmx.mongodb.net
 
 app.use(bodyParser.json());
 
-// Connect to MongoDB database
+
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB');
         
-        // Define routes and middleware that depend on the database connection
+       
         app.get('/', (req, res) => {
             res.send('Welcome to the product variant management system.');
         });
@@ -29,5 +29,5 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     })
     .catch((error) => {
         console.error('Error connecting to MongoDB:', error);
-        process.exit(1); // Exit the process if unable to connect to the database
+        process.exit(1); 
     });
