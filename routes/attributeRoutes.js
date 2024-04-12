@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Attribute = require('../models/Attribute');
 
-// Add new attribute
 router.post('/', async (req, res) => {
   try {
     const attribute = new Attribute(req.body);
