@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Variant = require('../models/Variant');
 
-// Add new variant
+
 router.post('/', async (req, res) => {
   try {
     const variant = new Variant(req.body);
