@@ -7,14 +7,6 @@ The Product Variant Management System is a backend application designed to manag
 - Backend Framework:Express
 - Database: MongoDB
 
-## Example
-
-Consider a product "Shirt" with the following variants:
-
-1. Size: S, Color: Red, Material: Cotton
-2. Size: M, Color: Red, Material: Cotton
-3. Size: S, Color: Green, Material: Cotton
-4. Size: M, Color: Green, Material: Cotton
 
 ## Tasks
 
